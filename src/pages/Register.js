@@ -1,4 +1,6 @@
 import { Button, Form, Input, InputNumber } from 'antd';
+import AnchorLink from 'antd/es/anchor/AnchorLink';
+import Link from 'antd/es/typography/Link';
 import React from 'react'
 
 function Register() {
@@ -18,7 +20,10 @@ function Register() {
                    <Input placeholder='Senha'/>                  
                 </Form.Item>
 
-                <Button className='primary-button mt-3'>REGISTRAR</Button>  
+                <Button className='primary-button my-2'>REGISTRAR</Button> 
+                
+                <Link to="/login" className='anchor mt-2'>CLIQUE PARA LOGAR</Link>
+                 
 
             </Form>
       </div>
