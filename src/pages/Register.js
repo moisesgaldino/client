@@ -5,7 +5,7 @@ function Register() {
   return (
     <div className="authentication">
       <div className="authentication-form card p-3">
-        <h1 className="card-title">Faça o seu Registro</h1>
+        <h1 className="card-title">Faça o seu registro</h1>
             <Form layout='vertical'>
 
                 <Form.Item label='Nome' name='name'>
